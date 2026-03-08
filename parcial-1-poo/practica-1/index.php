@@ -3,6 +3,6 @@ Require 'Usuario.php';
 
 $iUsuario = new Usuario ("Yibran", "abcd@gmail.com");
 
-echo "Nombre: ". $user->getNombre() . "<br>";
-echo "Correo: ". $user->getCorreo();
+echo "Nombre: ". $iUsuario->getNombre() . "<br>";
+echo "Correo: ". $iUsuario->getCorreo();
 ?>
