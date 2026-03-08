@@ -1,7 +1,4 @@
 Práctica 1: Clases y Encapsulamiento en PHP
-Alumno: Coronel Lopez Jesus Yibran
-
-Docente: José Alfonso Aguilar Calderón
 
 Objetivo
 Implementar una clase en PHP con atributos privados, constructor y métodos de acceso, siguiendo las reglas de encapsulamiento de la POO.
