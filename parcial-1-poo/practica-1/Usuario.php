@@ -13,9 +13,19 @@
             return $this->pNombre;
         }
 
-                function getCorreo()
+        function getCorreo()
         {
             return $this->pCorreo;
         }
 
+        function setNombre($nombre)
+        {
+            $this->pNombre=$nombre;
+        }
+
+        function setCorreo($correo)
+        {
+            $this->pCorreo=$correo;
+        }
+        
     }
