@@ -8,7 +8,7 @@ class Usuario {
     public function __construct ($nombre, $correo){
 
         $this->pNombre=$nombre;
-        $this->pCorreo=$correo;
+        $this->setCorreo($correo);
 
     }    
 
@@ -27,7 +27,7 @@ class Usuario {
     public function setCorreo($correo){
 
         if (!filter_var($correo, FILTER_VALIDATE_EMAIL)){
-            new Exception("Error de '$correo' no valido " );
+            throw new Exception("<br> Error de ". $correo ." no valido " );
         }
 
         $this->pCorreo=$correo;

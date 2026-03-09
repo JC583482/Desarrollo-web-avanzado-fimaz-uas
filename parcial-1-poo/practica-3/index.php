@@ -3,14 +3,15 @@
     require 'clases/Alumno.php';
 
     try{
-        $admin=new Admin("yibran","abcd@gmail.com");
-        echo "Nombre: " . $admin->getNombre() . "| Rol: " . $Admin->getRol() ."\n";
+        $Admin=new Admin("yibran","abcd@gmail.com");
+        echo "Nombre: " . $Admin->getNombre() . "<br> Rol: " . $Admin->getRol() ."\n";
     } catch (Exception $e) {
         echo "Error: ". $e->getMessage();
     }
 
     try {
-        $alumno=new Alumno("jesus", "jesus@gmail.com", "81287346");
+        $Alumno=new Alumno("jesus", "jesugmail.com", "81287346");
     } catch (Exception $e) {
-        echo "Error controlado: " . $e->getMessage();
+        echo "<br> Error controlado: " . $e->getMessage();
     }
+    ?>
