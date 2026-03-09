@@ -23,3 +23,4 @@ Se realizaron pruebas creando usuarios con correos válidos y también con corre
 Cuando el correo no cumple con el formato se muestra un mensaje indicando que el correo es inválido.
 
 LINK DEL VIDEO
+https://youtu.be/q9V1aOS5xB4
