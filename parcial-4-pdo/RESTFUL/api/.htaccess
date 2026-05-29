@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /Desarrollo-web-avanzado-fimaz-uas/parcial-4-pdo/RESTFUL/api/
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php [QSA,L]
