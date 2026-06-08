@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /Desarrollo-web-avanzado-fimaz-uas/Proyecto-Final/
+
+# Allow direct access to real files and folders
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Route everything else through index.php
+RewriteRule ^(.*)$ index.php?route=$1 [QSA,L]
