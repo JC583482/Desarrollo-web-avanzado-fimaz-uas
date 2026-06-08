@@ -7,7 +7,7 @@ use PDOException;
 
 class Database {
     private string $host = "127.0.0.1";
-    private string $dbname = "tienda_mvc";
+    private string $dbname = "productos";
     private string $username = "root";
     private string $password = "";
     private string $charset = "utf8mb4";
